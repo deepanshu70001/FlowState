@@ -38,6 +38,5 @@ apps/
 packages/
 render.yaml
 packages.json
-pnpm-workspace.yam
+pnpm-workspace.yaml
 package-lock.json
-assets/
