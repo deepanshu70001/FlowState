@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Build output
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# C++ build
+packages/engine-cpp/build/
+packages/engine-cpp/cmake-build-*/
+*.o
+*.obj
+*.exe
+
+# Temporary dev code ignore
+apps/
+packages/
+render.yaml
+packages.json
+pnpm-workspace.yam
+package-lock.json
+assets/

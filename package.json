@@ -1,0 +1,21 @@
+{
+  "name": "flowstate-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "FlowState — Real-time traffic microsimulation platform",
+  "scripts": {
+    "dev:web": "pnpm --filter web-dashboard dev",
+    "dev:api": "cd apps/api-gateway && python main.py",
+    "dev:engine": "cd packages/engine-cpp && python scripts/emitter.py",
+    "build:web": "pnpm --filter web-dashboard build",
+    "build:types": "pnpm --filter @flowstate/shared-types build",
+    "install:api": "cd apps/api-gateway && pip install -r requirements.txt",
+    "install:engine": "cd packages/engine-cpp && pip install -r requirements.txt"
+  },
+  "engines": {
+    "node": ">=18",
+    "pnpm": ">=8"
+  },
+  "keywords": ["traffic", "simulation", "microsimulation", "real-time"],
+  "license": "MIT"
+}
