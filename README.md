@@ -71,7 +71,7 @@ We rely on a robust Monorepo architecture managed by **pnpm workspaces**, separa
 ## 📷 Prototype Visualization & Dashboard
 Here is a screenshot of our simulated FlowState dashboard prototype. It visualizes the capacity drop phenomenon live, streaming agent-level telemetry and dynamic variable speed limits!
 
-![FlowState Live Dashboard Prototype](assets/prototype_screenshot.png)
+![FlowState Live Dashboard Prototype](assets/actual_dashboard.jpg)
 
 ---
 
